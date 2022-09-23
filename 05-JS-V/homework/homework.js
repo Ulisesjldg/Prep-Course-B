@@ -74,7 +74,7 @@ return invertida */
       this.edad = edad;
       this.domicilio= domicilio;
     }
-    detalle() {
+    detalle() {  //creacion de objeto con : y asi 
       return {
         Nombre: this.nombre,
         Apellido: this.apellido,
